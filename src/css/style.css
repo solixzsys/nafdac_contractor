@@ -1,12 +1,13 @@
 body {
-  background: #333;
-  color: #fff; }
+  background: #ffffff;
+  color: #1b1b1b; }
 
 .navbar {
   border-bottom: #008ed6 3px solid;
   opacity: 0.8; }
 
 #home-section {
+  position: relative;
   background: url("../img/home.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -42,3 +43,19 @@ body {
   padding: 4px;
   border-radius: 5px;
   font-size: 30px; }
+
+#header2 {
+  color: #3f3f3f; }
+
+@media (min-width: 992px) {
+  .top-icons-1 {
+    width: 30% !important; }
+  .company-contact {
+    padding-left: 150px; } }
+
+@media (max-width: 575px) {
+  .company-contact {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important; }
+  .office-addr {
+    display: none; } }
